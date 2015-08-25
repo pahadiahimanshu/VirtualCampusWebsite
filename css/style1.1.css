@@ -1,0 +1,396 @@
+/*loading */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/preloader.gif) center no-repeat #fff;
+}
+
+
+#slideshow {
+    position: relative;
+    width: 900px;
+    height: 573px;
+    background-image: url("../images/background_macbook.png");
+    margin: 200px auto 100px;
+}
+
+.slide{
+	position: absolute;
+	width: 670px;
+	height: 420px;
+	top: 42px;
+	left: 116px;
+	overflow: hidden;
+}
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html{
+ 	 -webkit-transition : background-color 1s;
+ 	 transition:background-color 1s;
+}
+html, body {
+    /* For the loading indicator to be vertically centered ensure */
+    /* the html and body elements take up the full viewport */
+    min-height: 100%;
+}
+html.loading {
+    /* Replace #333 with the background-color of your choice */
+    /* Replace loading.gif with the loading image of your choice */
+    background: #333 url('svg/load.gif') no-repeat 50% 50%;
+
+    /* Ensures that the transition only runs in one direction */
+    -webkit-transition: background-color 0;
+    transition: background-color 0;
+}
+body {
+    -webkit-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+}
+html.loading body {
+    /* Make the contents of the body opaque during loading */
+    opacity: 0;
+
+    /* Ensures that the transition only runs in one direction */
+    -webkit-transition: opacity 0;
+    transition: opacity 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px; 
+}
+
+
+/* Header */
+.header {
+  background-image :url("../images/head2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  text-align: center; 
+}
+
+.header2 {
+  background-image :url("../images/bh1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  text-align: center; 
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+.header2 .container {
+	position: relative;
+	top: 200px;
+}
+
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+	color :white;
+}
+.header2 h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+	color :white;
+}
+
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+	color : white;
+}
+
+.btn {
+	color : #fff;
+	background: #000;
+	padding:10px 40px;
+	text-decoration: none;
+	transition : background .5s;
+	transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+
+/* Nav */
+
+.spacer{
+	height: 59px;
+	width: 100%;
+}
+.spacer2{
+	width:100%;
+	height:90px;
+	}
+
+.nav{
+	background: #000;
+	height:80px;
+	width:100%;
+	position: fixed;
+	z-index: 1;
+
+}
+
+.main .container h1 p{
+	position: absolute;
+	z-index: -1;
+
+}
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	padding:  0;
+	text-align: center;
+	height:80px; 
+}
+
+.nav ul li{
+	color : #fff;
+	display:inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 10px;
+	transition: background .5s;
+	transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+li{
+	text-align: -webkit-match-parent;
+}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+.main .container p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.main{
+	display: block;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+	height: 600px; 
+	text-align: right;
+	background-size: cover;
+}
+
+.jumbotron .end {
+	background-image: url("../images/foot1.jpg");
+	height: 600px; 
+	text-align: right;
+	background-size: cover;
+
+}
+.jumbotron .end2 {
+	background-image: url("../images/facb3.jpg");
+	height: 600px; 
+	text-align: right;
+	background-size: cover;
+
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+/*softwares*/
+
+.softwares {
+    /*background-color: #1c1c1c;*/
+    text-align: center;
+    padding: 50px 0 80px;
+    background-size:cover;
+    margin:0 auto;
+}
+.softwares .container {
+	width:800px; 
+		margin:0 auto;
+}
+h2{
+	color:#2e3192;
+}
+.softwares .container .col h2{
+	color: #2e3192;
+	font-size: 25px;
+}
+.softwares .container .col p{
+	color: black;
+	font-size: 20px;
+	font-weight: 300;
+}
+.softwares .col {
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/*team*/
+.team{
+	text-align: center;
+    padding: 50px 0 80px;
+    margin-bottom: 150px;
+
+}
+.team .container {
+	width:800px; 
+	margin:0 auto;
+}
+.team .container  h1{
+	/*color: #2e3192;*/
+	font-size: 35px;	
+}
+.team .container .col p{
+	color: black;
+	font-size: 20px;
+	font-weight: 300;
+}
+.team .container  h2{
+	color: #2e3192;
+	font-size: 25px;	
+}
+.team .col {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+.team .center{
+	background-size: cover;
+	margin:0 auto;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+.endaa{
+	height:250px;
+}
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+	height:80px;
+	background: #000;
+}
+.footer .container p{
+	color:white;
+	margin: 0 auto; 
+	padding:  0;
+	text-align: center;
+	font-weight: 300;
+	height:80px; 
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .softwares .col {
+    width: 30%;
+}
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    float : left;
+    margin:50px 80px 50px 0;
+  }
+}
+
+.col img{
+	border-radius: 50%;
+	height:100px;
+	width:100px;
+}
+
+/*<div style = 'background-image: url(image.gif)'></div>
+
+div {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}*/
+
+
+
+
+/*HEART ANIMATION*/
+
+.love{
+	display: inline-block;
+	background: #000;
+	width: 100%;
+	text-align: center;
+
+}
+.love p{
+	display: inline-block;
+	color: #fff;
+}
+.love img{
+	height:20px;
+	width:25px;
+}
