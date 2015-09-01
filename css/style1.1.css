@@ -13,10 +13,11 @@
 
 .link3{
 	color:black;
-
+	text-decoration: none;
 }
 .link3:hover{
 	color:#2e3192;
+	text-decoration: none;
 	/*text-decoration: underline;*/
 }
 
