@@ -11,6 +11,14 @@
 	background: url(images/preloader.gif) center no-repeat #fff;
 }
 
+.link3{
+	color:#c8c8c8;
+
+}
+.link3:hover{
+	color:#1c1c1c;
+	text-decoration: underline;
+}
 
 #slideshow {
     position: relative;
