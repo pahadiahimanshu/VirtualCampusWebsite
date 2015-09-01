@@ -20,6 +20,13 @@
 	text-decoration: none;
 	/*text-decoration: underline;*/
 }
+.link2{
+	color:white;
+	text-decoration: none;
+}
+.link2:hover{
+	text-decoration: underline;
+}
 
 #slideshow {
     position: relative;
