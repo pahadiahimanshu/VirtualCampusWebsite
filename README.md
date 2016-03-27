@@ -5,7 +5,7 @@ The project aims to develop an artificial environment of the institute's campus 
 The website gives information about the project.
 
 Content -
-1. About Project
+ 1. About Project
  2. Gallery
  3. Technologies
  4. Team
