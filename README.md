@@ -6,16 +6,16 @@ The website gives information about the project.
 
 Content -
 1. About Project
-2. Gallery
-3. Technologies
-4. Team
-5. Contact us
+ 2. Gallery
+ 3. Technologies
+ 4. Team
+ 5. Contact us
 
 Explore webpage 
 Content -
-1. Objective of the project
-2. Features
-3. Work
+ 1. Objective of the project
+ 2. Features
+ 3. Work
 
 The 
 Dependencies -
